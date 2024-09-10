@@ -1,5 +1,6 @@
 import java.lang.reflect.Array;
 import java.util.*;
+import java.util.LinkedList;
 import java.util.stream.Collectors;
 
 import static java.util.Map.entry;
@@ -9,8 +10,7 @@ public class Main {
         Solution solution = new Solution();
         System.out.println(solution.findMin(new int[]{4, 5, 6, 7, 0, 1, 2}));
         LinkedList<Integer> list=new LinkedList<>();
-        list.add(1,3);
-        System.out.println(list);
+        list.add(1);
     }
 }
 
